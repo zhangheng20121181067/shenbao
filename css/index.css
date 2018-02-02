@@ -1188,7 +1188,7 @@ body {
         background-image: url("../images/phone.png");
         margin-left: 0.02rem; }
   body #wufeng {
-    width: 600px;
+    width: 400px;
     height: 100px;
     position: relative;
     margin: 20px auto;
@@ -1202,7 +1202,7 @@ body {
         float: left;
         padding-right: 20px; }
         body #wufeng ul li img {
-          width: 150px;
+          width: 100px;
           height: 100%;
           display: inline-block;
           border-radius: 6px; }
