@@ -1131,6 +1131,8 @@ a:hover {
 body {
   background-color: #e70012; }
   body .xueyuan {
+    width: 100%;
+    overflow: hidden;
     margin-top: .20rem;
     /* background-color: #fff;*/ }
   body h2 {
