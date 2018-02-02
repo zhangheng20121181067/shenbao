@@ -1185,5 +1185,25 @@ body {
         display: block;
         background-image: url("../images/phone.png");
         margin-left: 0.02rem; }
+  body #wufeng {
+    /*  background-color: #fff;*/
+    width: 600px;
+    height: 100px;
+    position: relative;
+    margin: 20px auto;
+    overflow: hidden; }
+    body #wufeng ul {
+      width: 600px;
+      height: 150px;
+      position: relative; }
+      body #wufeng ul li {
+        height: 100px;
+        float: left;
+        padding-right: 20px; }
+        body #wufeng ul li img {
+          width: 150px;
+          height: 100px;
+          display: inline-block;
+          border-radius: 6px; }
 
 /*# sourceMappingURL=index.css.map */
