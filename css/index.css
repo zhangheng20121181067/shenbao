@@ -1129,7 +1129,8 @@ a:hover {
   transform: rotate(90deg); }
 
 body {
-  background-color: #e70012; }
+  background-color: #e70012;
+  overflow: hidden; }
   body .xueyuan {
     width: 100%;
     overflow: hidden;
@@ -1188,7 +1189,7 @@ body {
         background-image: url("../images/phone.png");
         margin-left: 0.02rem; }
   body #wufeng1, body #wufeng2 {
-    width: 400px;
+    /* width: 400px;*/
     height: 100px;
     position: relative;
     margin: 20px auto;
