@@ -1187,21 +1187,21 @@ body {
         display: block;
         background-image: url("../images/phone.png");
         margin-left: 0.02rem; }
-  body #wufeng {
+  body #wufeng1, body #wufeng2 {
     width: 400px;
     height: 100px;
     position: relative;
     margin: 20px auto;
     overflow: hidden; }
-    body #wufeng ul {
+    body #wufeng1 ul, body #wufeng2 ul {
       width: 100%;
       height: 100%;
       position: relative; }
-      body #wufeng ul li {
+      body #wufeng1 ul li, body #wufeng2 ul li {
         height: 100%;
         float: left;
         padding-right: 20px; }
-        body #wufeng ul li img {
+        body #wufeng1 ul li img, body #wufeng2 ul li img {
           width: 100px;
           height: 100%;
           display: inline-block;
@@ -1240,6 +1240,10 @@ body {
         body .footer a:nth-child(2) {
           width: 52%; }
         body .footer a span {
-          font-size: .10rem; } }
+          font-size: .10rem; }
+    body #wufeng {
+      width: 600px; }
+      body #wufeng ul li img {
+        width: 150px; } }
 
 /*# sourceMappingURL=index.css.map */
