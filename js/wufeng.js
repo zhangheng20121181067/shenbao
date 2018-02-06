@@ -20,8 +20,9 @@ window.onload=function(){
        }
        var timer = setInterval(move,30);
 
-       odiv.onmousemove=function(){clearInterval(timer);};
-       odiv.onmouseout=function(){timer = setInterval(move,30)};
+      /* odiv.onmouseover=function(){clearInterval(timer);};
+       odiv.onmouseout=function(){timer = setInterval(move,30)};*/
+
        /*  document.getElementsByTagName('a')[0].onclick = function(){
         spa=-2;
         };
