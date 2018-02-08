@@ -1128,13 +1128,15 @@ a:hover {
 .rotate90 {
   transform: rotate(90deg); }
 
+.backhong {
+  background-color: #e70012; }
+
 body {
-  background-color: #e70012;
   overflow: hidden; }
   body .xueyuan {
     width: 100%;
     overflow: hidden;
-    margin-top: .20rem;
+    padding-top: .20rem;
     /* background-color: #fff;*/ }
   body h2 {
     line-height: .46rem;
@@ -1142,7 +1144,8 @@ body {
     color: #fff;
     font-size: .22rem;
     padding-left: 8px;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    background-color: #e70012; }
   body img {
     width: 100%;
     display: block; }
@@ -1152,7 +1155,7 @@ body {
     font-size: .18rem;
     color: #fff; }
   body p.pad {
-    margin-top: .16rem;
+    padding-top: .16rem;
     padding-bottom: .80rem; }
   body .footer {
     width: 100%;
@@ -1192,6 +1195,7 @@ body {
     /* width: 400px;*/
     height: 100px;
     position: relative;
+    margin: 20px auto;
     overflow: hidden; }
     body #wufeng1 ul, body #wufeng2 ul {
       width: 100%;
