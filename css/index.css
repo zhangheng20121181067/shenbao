@@ -1140,7 +1140,8 @@ body {
   body .but {
     margin-bottom: .20rem; }
     body .but .copy {
-      width: 3.20rem;
+      /*  width:3.20rem;*/
+      width: 80%;
       height: .80rem;
       margin: 0 auto;
       background-size: contain;
@@ -1150,7 +1151,8 @@ body {
       background-image: url(../images/but.png); }
       body .but .copy p {
         line-height: 0.80rem;
-        color: #ffe83d; }
+        color: #ffe83d;
+        font-size: .16rem; }
     body .but a {
       display: block; }
       body .but a img {
