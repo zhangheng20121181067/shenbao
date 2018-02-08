@@ -1257,18 +1257,18 @@ body {
     transform: scale(1); } }
 @-webkit-keyframes scale {
   0% {
-    transform: scale(1); }
+    -webkit-transform: scale(1); }
   50% {
-    transform: scale(1.15); }
+    -webkit-transform: scale(1.15); }
   100% {
-    transform: scale(1); } }
+    -webkit-transform: scale(1); } }
 @-moz-keyframes scale {
   0% {
-    transform: scale(1); }
+    -moz-transform: scale(1); }
   50% {
-    transform: scale(1.15); }
+    -moz-transform: scale(1.15); }
   100% {
-    transform: scale(1); } }
+    -moz-transform: scale(1); } }
 @media screen and (min-width: 768px) {
   body {
     width: 750px;
