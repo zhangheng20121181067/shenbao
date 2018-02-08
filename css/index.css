@@ -1154,7 +1154,8 @@ body {
         width: 70%;
         margin: 0 auto;
         animation: scale 1.5s linear infinite;
-        -webkit-animation: scale 1.5s infinite linear; }
+        -webkit-animation: scale 1.5s infinite linear;
+        -moz-animation: scale 1.5s infinite linear; }
   body .xueyuan {
     width: 100%;
     overflow: hidden;
