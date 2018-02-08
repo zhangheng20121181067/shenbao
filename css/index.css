@@ -1133,6 +1133,28 @@ a:hover {
 
 body {
   overflow: hidden; }
+  body .but {
+    margin-bottom: .20rem; }
+    body .but .copy {
+      width: 3.20rem;
+      height: .80rem;
+      margin: 0 auto;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: block;
+      background-image: url(../images/but.png); }
+      body .but .copy p {
+        line-height: 0.80rem;
+        color: #ffe83d; }
+    body .but a {
+      display: block; }
+      body .but a img {
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        animation: scale 1.5s linear infinite;
+        -webkit-animation: scale 1.5s infinite linear; }
   body .xueyuan {
     width: 100%;
     overflow: hidden;
@@ -1167,7 +1189,7 @@ body {
     justify-content: space-around;
     align-items: center; }
     body .footer a {
-      width: 22%;
+      width: 25%;
       height: 100%;
       text-align: center;
       font-size: .18rem;
@@ -1176,8 +1198,8 @@ body {
       color: #FFF;
       border-radius: .08rem;
       line-height: .44rem; }
-      body .footer a:nth-child(2) {
-        width: 49%; }
+      body .footer a:nth-child(1) {
+        width: 60%; }
       body .footer a span {
         float: left;
         font-size: .18rem; }
@@ -1190,7 +1212,8 @@ body {
         background-position: center;
         display: block;
         background-image: url("../images/phone.png");
-        margin-left: 0.02rem; }
+        margin-left: .10rem;
+        margin-right: 0.1rem; }
   body #wufeng1, body #wufeng2 {
     /* width: 400px;*/
     height: 100px;
@@ -1223,6 +1246,15 @@ body {
   body .swiperContainer2 img {
     height: 180px; }
 
+@keyframes scale {
+  0% {
+    transform: scale(1, 1); }
+  50% {
+    transform: scale(1.15, 1.15);
+    transition: 1s 0s; }
+  100% {
+    transform: scale(1, 1);
+    transition: 1s 0s; } }
 @media screen and (min-width: 768px) {
   body {
     width: 750px;
